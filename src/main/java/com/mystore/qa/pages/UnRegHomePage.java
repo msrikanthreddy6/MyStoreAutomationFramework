@@ -1,6 +1,7 @@
 package com.mystore.qa.pages;
 
 import com.mystore.qa.base.BasePage;
+import com.mystore.qa.util.JavaScriptTestHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -50,18 +51,22 @@ public class UnRegHomePage extends BasePage {
     }
 
     public boolean validateHomePageNewslatterLabel(){
+        JavaScriptTestHelper.drawBorder(newsletterLabel, driver);
         return newsletterLabel.isDisplayed();
     }
 
     public boolean validateHomePageLogo(){
+        JavaScriptTestHelper.drawBorder(logoImg, driver);
         return logoImg.isDisplayed();
     }
 
     public boolean validateHomePageFollowUsLabel(){
+        JavaScriptTestHelper.drawBorder(followusLabel, driver);
         return followusLabel.isDisplayed();
     }
 
     public LoginPage clickOnSignInLink(){
+        JavaScriptTestHelper.drawBorder(signInLink, driver);
         signInLink.click();
         return new LoginPage();
     }
@@ -70,12 +75,15 @@ public class UnRegHomePage extends BasePage {
         newsletterInput.sendKeys(email);
         submitNewsletterBtn.click();
         WebElement msg = driver.findElement(By.xpath("//p[@class='alert alert-success']"));
+        JavaScriptTestHelper.drawBorder(msg, driver);
         return msg.getText();
     }
     public String validateNewslatterInvalidSubs(String email){
         newsletterInput.sendKeys(email);
         submitNewsletterBtn.click();
         WebElement msg = driver.findElement(By.xpath("//p[@class='alert alert-danger']"));
+        JavaScriptTestHelper.drawBorder(msg, driver);
+
         return msg.getText();
     }
 

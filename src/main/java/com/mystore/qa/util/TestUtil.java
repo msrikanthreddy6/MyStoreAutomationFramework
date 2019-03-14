@@ -21,18 +21,12 @@ public class TestUtil extends BasePage {
     public static final int SCRIPT_TIMEOUT = 10;
 
     public static final int RAND_RANGE = 1000;
-    private static final int CODE_STACK_INDEX = 2;
 
 
     public static void takeScreenshotIfExceptionOccurred() throws IOException {
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String currentDir = System.getProperty("user.dir");
         FileUtils.copyFile(srcFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
-    }
-
-
-    public static String testName() {
-        return Thread.currentThread().getStackTrace()[CODE_STACK_INDEX].getMethodName();
     }
 
 

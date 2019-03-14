@@ -21,11 +21,9 @@ import java.util.concurrent.TimeUnit;
 public class BasePage implements TestPriority, Browsers {
 
     private static final String configFilePath = "src/main/java/com/mystore/qa/config/config.properties";
-    private static final String constFilePath = "src/main/java/com/mystore/qa/config/constants.properties";
 
     public static WebDriver driver;
     public static Properties prop;
-    public static Properties constants;
     private static EventFiringWebDriver e_driver;
     private static WebEventListener eventListener;
 
@@ -79,8 +77,5 @@ public class BasePage implements TestPriority, Browsers {
         driver.get(prop.getProperty(TestUtil.URL));
     }
 
-//    public static void drawBorder(WebElement element, WebDriver driver) {
-//        JavascriptExecutor js = (JavascriptExecutor)driver;
-//        js.executeScript("arguments[0].style.border='3px solid red'", element);
-//    }
+
 }

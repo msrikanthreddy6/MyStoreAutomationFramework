@@ -9,6 +9,7 @@
 		<classes>
 			<class name="com.mystore.qa.testcases.ui.HomePageTest"/>
 			<class name="com.mystore.qa.testcases.ui.LoginPageTest"/>
+			<class name="com.mystore.qa.testcases.ui.AccountPageTest"/>
 		</classes>
 	</test>
 </suite>

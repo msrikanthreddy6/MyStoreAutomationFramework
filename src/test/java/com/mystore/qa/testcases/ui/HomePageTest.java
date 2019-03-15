@@ -10,7 +10,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
-import java.util.Random;
+
 
 public class HomePageTest extends BasePage {
 
@@ -35,9 +35,7 @@ public class HomePageTest extends BasePage {
 
     @DataProvider
     public Object[] validEmailProvider(){
-        Random random = new Random();
-        String email = "test" + random.nextInt(TestUtil.RAND_RANGE) + "@test.com";
-        logger.info("Generating random email for subscription: " + email);
+        String email = TestUtil.userEmailGenerator();
         return new Object[]{email};
     }
 

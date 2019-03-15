@@ -1,0 +1,24 @@
+2019-03-15 18:27:46,301  INFO [main] Log:71 - Generating random email for subscription: 229autotest62@test.com
+2019-03-15 18:27:46,800 DEBUG [main] Preferences:93 - Removing preference chrome72=2.46 (expired on 2019-03-15 18:27:02)
+2019-03-15 18:27:46,802  INFO [main] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-15 18:27:46,814 DEBUG [main] Preferences:66 - Storing preference chrome72=2.46 (valid until 2019-03-15 19:27:46)
+2019-03-15 18:27:46,815 DEBUG [main] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-15 18:27:46,816  INFO [main] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-15 18:27:48,668  INFO [main] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-15 18:27:54,670  INFO [main] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-15 18:27:54,683  INFO [main] Log:78 - Starting homePageValidSubscriptionTest test execution
+2019-03-15 18:27:54,684  INFO [main] Log:82 - Trying to find Element By : By.id: newsletter-input
+2019-03-15 18:27:54,700  INFO [main] Log:87 - Found Element By : By.id: newsletter-input
+2019-03-15 18:27:54,704  INFO [main] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (0c92f576d9966f749f4c50cce60d9ba5)] -> id: newsletter-input] before any changes made
+2019-03-15 18:27:54,810  INFO [main] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (0c92f576d9966f749f4c50cce60d9ba5)] -> id: newsletter-input]
+2019-03-15 18:27:54,811  INFO [main] Log:82 - Trying to find Element By : By.name: submitNewsletter
+2019-03-15 18:27:54,826  INFO [main] Log:87 - Found Element By : By.name: submitNewsletter
+2019-03-15 18:27:54,826  INFO [main] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (0c92f576d9966f749f4c50cce60d9ba5)] -> name: submitNewsletter]
+2019-03-15 18:27:56,847  INFO [main] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (0c92f576d9966f749f4c50cce60d9ba5)] -> name: submitNewsletter]
+2019-03-15 18:27:56,849  INFO [main] Log:82 - Trying to find Element By : By.xpath: //p[@class='alert alert-success']
+2019-03-15 18:27:56,862  INFO [main] Log:87 - Found Element By : By.xpath: //p[@class='alert alert-success']
+2019-03-15 18:27:56,863  INFO [main] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-15 18:27:56,871  INFO [main] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-15 18:27:56,872  INFO [main] Log:152 - Trying to get a text: [[ChromeDriver: chrome on MAC (0c92f576d9966f749f4c50cce60d9ba5)] -> xpath: //p[@class='alert alert-success']]
+2019-03-15 18:27:56,885  INFO [main] Log:157 - Text for: [[ChromeDriver: chrome on MAC (0c92f576d9966f749f4c50cce60d9ba5)] -> xpath: //p[@class='alert alert-success']] : Newsletter : You have successfully subscribed to this newsletter.
+2019-03-15 18:27:56,886  INFO [main] Log:83 - Ending homePageValidSubscriptionTest test execution

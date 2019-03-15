@@ -6,10 +6,10 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
 
 public class TestUtil extends BasePage {
 
@@ -21,6 +21,7 @@ public class TestUtil extends BasePage {
     public static final int SCRIPT_TIMEOUT = 10;
 
     public static final int RAND_RANGE = 1000;
+
 
 
     public static void takeScreenshotIfExceptionOccurred() throws IOException {
@@ -40,5 +41,34 @@ public class TestUtil extends BasePage {
         return currentDir;
     }
 
+    public static String userEmailGenerator(){
+        Random random = new Random();
+        String existingEmail = "";
+        String email = "autotest" + random.nextInt(RAND_RANGE) + "@test.com";
+
+        File file = new File("src/main/java/com/mystore/qa/config/skippedEmails.txt");
+
+        try(BufferedReader br = new BufferedReader(new FileReader(file))){
+            do{
+                existingEmail = br.readLine();
+                if(existingEmail != null && email.equals(existingEmail)){
+                    email = random.nextInt(RAND_RANGE) + email;
+                }
+            }while (existingEmail != null);
+
+        }catch (IOException exc){
+            logger.error(exc.getMessage());
+        }
+
+        try(OutputStream os = new FileOutputStream(file, true);){
+            String newSkippedEmail = email + "\n";
+            os.write(newSkippedEmail.getBytes(), 0, newSkippedEmail.length());
+        }catch (IOException exc){
+            logger.error(exc.getMessage());
+        }
+
+        logger.info("Generating random email for subscription: " + email);
+        return email;
+    }
 
 }

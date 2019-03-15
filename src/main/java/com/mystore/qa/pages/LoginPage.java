@@ -2,6 +2,7 @@ package com.mystore.qa.pages;
 
 import com.mystore.qa.base.BasePage;
 import com.mystore.qa.util.JavaScriptTestHelper;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -46,13 +47,13 @@ public class LoginPage extends BasePage {
     }
 
 
-    public RegHomePage validateLogin(String email, String password){
+    public AccountPage validateLogin(String email, String password){
         emailInputField.sendKeys(email);
         JavaScriptTestHelper.drawBorder(emailInputField, driver);
         passwordInputField.sendKeys(password);
         JavaScriptTestHelper.drawBorder(passwordInputField, driver);
         JavaScriptTestHelper.clickElementByJS(submitLoginBtn, driver);
-        return new RegHomePage();
+        return new AccountPage();
     }
 
 
@@ -60,5 +61,9 @@ public class LoginPage extends BasePage {
         JavaScriptTestHelper.drawBorder(recoverPassLink, driver);
         JavaScriptTestHelper.clickElementByJS(recoverPassLink, driver);
         return new PasswordRecoverPage();
+    }
+
+    public String validateAuthenificationErrorMsg(){
+        return driver.findElement(By.xpath("//div[@class='alert alert-danger']//li")).getText();
     }
 }

@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+import com.mystore.qa.util.TestUtil;
 import org.testng.IReporter;
 import org.testng.IResultMap;
 import org.testng.ISuite;
@@ -21,13 +22,13 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class ExtentReporterNG implements IReporter {
 
-    public ExtentReports extent;
+    private ExtentReports extent;
 
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
                                String outputDirectory) {
         extent = new ExtentReports(outputDirectory + File.separator
-                + "TestReport.html", true);
+                + "AutomationTestReport.html", true);
 
         for (ISuite suite : suites) {
             Map<String, ISuiteResult> result = suite.getResults();

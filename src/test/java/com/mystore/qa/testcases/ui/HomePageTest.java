@@ -1,8 +1,8 @@
 package com.mystore.qa.testcases.ui;
 
 import com.mystore.qa.base.BasePage;
+import com.mystore.qa.pages.HomePage;
 import com.mystore.qa.pages.LoginPage;
-import com.mystore.qa.pages.UnRegHomePage;
 import com.mystore.qa.util.TestUtil;
 
 import org.testng.Assert;
@@ -12,16 +12,16 @@ import org.testng.annotations.*;
 import java.lang.reflect.Method;
 import java.util.Random;
 
-public class UnRegHomePageTest extends BasePage {
+public class HomePageTest extends BasePage {
 
-    private final String TITLE = "My Store";
-    private final String LOGIN_TITLE = "Login - My Store";
-    private final String VALID_SUB_MSG = "Newsletter : You have successfully subscribed to this newsletter.";
-    private final String INVALID_SUB_MSG = "Newsletter : This email address is already registered.";
+    private static final String TITLE = "My Store";
+    private static final String LOGIN_TITLE = "Login - My Store";
+    private static final String VALID_SUB_MSG = "Newsletter : You have successfully subscribed to this newsletter.";
+    private static final String INVALID_SUB_MSG = "Newsletter : This email address is already registered.";
 
-    private UnRegHomePage unRegHomePage;
+    private HomePage homePage;
 
-    public UnRegHomePageTest(){
+    public HomePageTest(){
         super();
     }
 
@@ -29,7 +29,7 @@ public class UnRegHomePageTest extends BasePage {
     @BeforeMethod
     public void setUp(){
         initialization();
-        unRegHomePage = new UnRegHomePage();
+        homePage = new HomePage();
     }
 
 
@@ -45,7 +45,7 @@ public class UnRegHomePageTest extends BasePage {
     @Test(priority = HIGH, description = "Verify correct Home Page title")
     public void homePageTitleTest(Method test){
         logger.info(String.format("Starting %s test execution", test.getName()));
-        String title = unRegHomePage.validateHomePageTitle();
+        String title = homePage.validateHomePageTitle();
 
         Assert.assertEquals(title, TITLE);
 
@@ -56,7 +56,7 @@ public class UnRegHomePageTest extends BasePage {
     @Test(priority = HIGH, description = "Verify that Sign In button returns Login Page")
     public void signInLinkTest(Method test){
         logger.info(String.format("Starting %s test execution", test.getName()));
-        LoginPage loginPage = unRegHomePage.clickOnSignInLink();
+        LoginPage loginPage = homePage.clickOnSignInLink();
 
         Assert.assertEquals(loginPage.validateLoginPageTitle(), LOGIN_TITLE);
 
@@ -67,7 +67,7 @@ public class UnRegHomePageTest extends BasePage {
     @Test(priority = LOW, description = "Verify that Home Page logo is displayed")
     public void homePageLogoTest(Method test){
         logger.info(String.format("Starting %s test execution", test.getName()));
-        boolean isLogo = unRegHomePage.validateHomePageLogo();
+        boolean isLogo = homePage.validateHomePageLogo();
 
         Assert.assertTrue(isLogo);
 
@@ -78,7 +78,7 @@ public class UnRegHomePageTest extends BasePage {
     @Test(priority = MEDIUM, dataProvider = "validEmailProvider", description = "Verify that user can subscribe with valid email")
     public void homePageValidSubscriptionTest(String email, Method test){
         logger.info(String.format("Starting %s test execution", test.getName()));
-        String msg = unRegHomePage.validateNewslatterValidSubs(email);
+        String msg = homePage.validateNewslatterValidSubs(email);
 
         Assert.assertTrue(msg.contains(VALID_SUB_MSG));
 
@@ -89,7 +89,7 @@ public class UnRegHomePageTest extends BasePage {
     @Test(priority = MEDIUM, description = "Verify that user cannot subscribe with email that already exist")
     public void homePageInvalidSubscriptionTest(Method test){
         logger.info(String.format("Starting %s test execution", test.getName()));
-        String msg = unRegHomePage.validateNewslatterInvalidSubs(prop.getProperty("useremail"));
+        String msg = homePage.validateNewslatterInvalidSubs(prop.getProperty("useremail"));
 
         Assert.assertTrue(msg.contains(INVALID_SUB_MSG));
 
@@ -100,7 +100,7 @@ public class UnRegHomePageTest extends BasePage {
     @Test(priority = LOW, description = "Verify that News Letter label is displayed")
     public void homePageNewsletterLabelTest(Method test){
         logger.info(String.format("Starting %s test execution", test.getName()));
-        boolean isLabel = unRegHomePage.validateHomePageNewslatterLabel();
+        boolean isLabel = homePage.validateHomePageNewslatterLabel();
 
         Assert.assertTrue(isLabel);
 
@@ -111,7 +111,7 @@ public class UnRegHomePageTest extends BasePage {
     @Test(priority = LOW, description = "Verify that Follow Us label is displayed")
     public void homePageFollowUsLabelTest(Method test){
         logger.info(String.format("Starting %s test execution", test.getName()));
-        boolean isLabel = unRegHomePage.validateHomePageFollowUsLabel();
+        boolean isLabel = homePage.validateHomePageFollowUsLabel();
 
         Assert.assertTrue(isLabel);
 

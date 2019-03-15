@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class UnRegHomePage extends BasePage {
+public class HomePage extends BasePage {
 
     @FindBy(xpath = "//a[@title='Log in to your customer account']")
     WebElement signInLink;
@@ -42,7 +42,7 @@ public class UnRegHomePage extends BasePage {
     @FindBy(xpath = "//img[@class='logo img-responsive']")
     WebElement logoImg;
 
-    public UnRegHomePage(){
+    public HomePage(){
         PageFactory.initElements(driver, this);
     }
 

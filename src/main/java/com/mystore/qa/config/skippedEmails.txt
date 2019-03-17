@@ -7,3 +7,5 @@ autotest907@test.com
 autotest45@test.com
 autotest966@test.com
 autotest181@test.com
+autotest336@test.com
+autotest102@test.com

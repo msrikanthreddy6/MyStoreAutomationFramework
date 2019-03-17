@@ -1,88 +1,411 @@
-2019-03-15 21:13:35,952 DEBUG [main] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-15 21:29:52)
-2019-03-15 21:13:35,954  INFO [main] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
-2019-03-15 21:13:35,966 DEBUG [main] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
-2019-03-15 21:13:35,966  INFO [main] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
-2019-03-15 21:13:37,833  INFO [main] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
-2019-03-15 21:13:45,600  INFO [main] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
-2019-03-15 21:13:45,613  INFO [main] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
-2019-03-15 21:13:45,614  INFO [main] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
-2019-03-15 21:13:45,630  INFO [main] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
-2019-03-15 21:13:45,644  INFO [main] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
-2019-03-15 21:13:45,644  INFO [main] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
-2019-03-15 21:13:45,654  INFO [main] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
-2019-03-15 21:13:45,654  INFO [main] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (73fe30e03effaf23d327efbfb1880c93)] -> xpath: //a[@title='Log in to your customer account']]
-2019-03-15 21:13:48,039  INFO [main] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (73fe30e03effaf23d327efbfb1880c93)] -> xpath: //a[@title='Log in to your customer account']]
-2019-03-15 21:13:48,042  INFO [main] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
-2019-03-15 21:13:48,056  INFO [main] Log:87 - Found Element By : By.xpath: //input[@id='email']
-2019-03-15 21:13:48,057  INFO [main] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (73fe30e03effaf23d327efbfb1880c93)] -> xpath: //input[@id='email']] before any changes made
-2019-03-15 21:13:48,157  INFO [main] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (73fe30e03effaf23d327efbfb1880c93)] -> xpath: //input[@id='email']]
-2019-03-15 21:13:48,157  INFO [main] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
-2019-03-15 21:13:48,157  INFO [main] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
-2019-03-15 21:13:48,166  INFO [main] Log:87 - Found Element By : By.xpath: //input[@id='email']
-2019-03-15 21:13:48,173  INFO [main] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
-2019-03-15 21:13:48,173  INFO [main] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
-2019-03-15 21:13:48,184  INFO [main] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
-2019-03-15 21:13:48,185  INFO [main] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (73fe30e03effaf23d327efbfb1880c93)] -> xpath: //input[@id='passwd']] before any changes made
-2019-03-15 21:13:48,233  INFO [main] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (73fe30e03effaf23d327efbfb1880c93)] -> xpath: //input[@id='passwd']]
-2019-03-15 21:13:48,233  INFO [main] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
-2019-03-15 21:13:48,233  INFO [main] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
-2019-03-15 21:13:48,243  INFO [main] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
-2019-03-15 21:13:48,250  INFO [main] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
-2019-03-15 21:13:48,251  INFO [main] Log:112 - Trying to execute script: arguments[0].click()
-2019-03-15 21:13:48,251  INFO [main] Log:82 - Trying to find Element By : By.id: SubmitLogin
-2019-03-15 21:13:48,263  INFO [main] Log:87 - Found Element By : By.id: SubmitLogin
-2019-03-15 21:13:52,167  INFO [main] Log:117 - Script is executed: arguments[0].click()
-2019-03-15 21:13:52,169  INFO [main] Log:42 - Starting accountPageTitleTest test execution
-2019-03-15 21:13:52,169  INFO [main] Log:112 - Trying to execute script: return document.title
-2019-03-15 21:13:52,175  INFO [main] Log:117 - Script is executed: return document.title
-2019-03-15 21:13:52,177  INFO [main] Log:47 - Ending accountPageTitleTest test execution
-2019-03-15 21:13:52,322 DEBUG [main] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-15 21:29:52)
-2019-03-15 21:13:52,322  INFO [main] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
-2019-03-15 21:13:52,324 DEBUG [main] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
-2019-03-15 21:13:52,325  INFO [main] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
-2019-03-15 21:13:53,669  INFO [main] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
-2019-03-15 21:14:01,065  INFO [main] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
-2019-03-15 21:14:01,066  INFO [main] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
-2019-03-15 21:14:01,066  INFO [main] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
-2019-03-15 21:14:01,080  INFO [main] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
-2019-03-15 21:14:01,090  INFO [main] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
-2019-03-15 21:14:01,090  INFO [main] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
-2019-03-15 21:14:01,099  INFO [main] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
-2019-03-15 21:14:01,099  INFO [main] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (63fb618b420c55ad7d887db9f449d00e)] -> xpath: //a[@title='Log in to your customer account']]
-2019-03-15 21:14:04,424  INFO [main] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (63fb618b420c55ad7d887db9f449d00e)] -> xpath: //a[@title='Log in to your customer account']]
-2019-03-15 21:14:04,425  INFO [main] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
-2019-03-15 21:14:04,439  INFO [main] Log:87 - Found Element By : By.xpath: //input[@id='email']
-2019-03-15 21:14:04,440  INFO [main] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (63fb618b420c55ad7d887db9f449d00e)] -> xpath: //input[@id='email']] before any changes made
-2019-03-15 21:14:04,541  INFO [main] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (63fb618b420c55ad7d887db9f449d00e)] -> xpath: //input[@id='email']]
-2019-03-15 21:14:04,541  INFO [main] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
-2019-03-15 21:14:04,541  INFO [main] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
-2019-03-15 21:14:04,550  INFO [main] Log:87 - Found Element By : By.xpath: //input[@id='email']
-2019-03-15 21:14:04,557  INFO [main] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
-2019-03-15 21:14:04,557  INFO [main] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
-2019-03-15 21:14:04,569  INFO [main] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
-2019-03-15 21:14:04,569  INFO [main] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (63fb618b420c55ad7d887db9f449d00e)] -> xpath: //input[@id='passwd']] before any changes made
-2019-03-15 21:14:04,616  INFO [main] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (63fb618b420c55ad7d887db9f449d00e)] -> xpath: //input[@id='passwd']]
-2019-03-15 21:14:04,617  INFO [main] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
-2019-03-15 21:14:04,617  INFO [main] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
-2019-03-15 21:14:04,626  INFO [main] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
-2019-03-15 21:14:04,634  INFO [main] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
-2019-03-15 21:14:04,635  INFO [main] Log:112 - Trying to execute script: arguments[0].click()
-2019-03-15 21:14:04,635  INFO [main] Log:82 - Trying to find Element By : By.id: SubmitLogin
-2019-03-15 21:14:04,647  INFO [main] Log:87 - Found Element By : By.id: SubmitLogin
-2019-03-15 21:14:07,257  INFO [main] Log:117 - Script is executed: arguments[0].click()
-2019-03-15 21:14:07,258  INFO [main] Log:52 - Starting tshirtsLinkTest test execution
-2019-03-15 21:14:07,272 ERROR [main] Log:132 - Exception occurred: org.openqa.selenium.UnsupportedCommandException: actions
+2019-03-17 17:55:57,786 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:55:57,788  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:55:57,798 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:55:57,799  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:55:59,313  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:03,631  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:03,644  INFO [TestNG-test=Regression-1] Log:44 - Starting homePageTitleTest test execution
+2019-03-17 17:56:03,651  INFO [TestNG-test=Regression-1] Log:49 - Ending homePageTitleTest test execution
+2019-03-17 17:56:03,792 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:56:03,792  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:56:03,794 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:56:03,795  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:56:04,992  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:10,772  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:10,774  INFO [TestNG-test=Regression-1] Log:55 - Starting signInLinkTest test execution
+2019-03-17 17:56:10,774  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:10,776  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:10,791  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:10,804  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:10,804  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:10,813  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:10,813  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (c9ac3bb09ca7ae5a1b3842ea334b2a9f)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:12,998  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (c9ac3bb09ca7ae5a1b3842ea334b2a9f)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:13,001  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: return document.title
+2019-03-17 17:56:13,008  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: return document.title
+2019-03-17 17:56:13,009  INFO [TestNG-test=Regression-1] Log:60 - Ending signInLinkTest test execution
+2019-03-17 17:56:13,149 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:56:13,149  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:56:13,152 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:56:13,153  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:56:14,260  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:18,482  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:18,482  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:18,483  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:18,496  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:18,505  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:18,506  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:18,514  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:18,514  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (99d3e3a8c9113919df5dfe93d230807f)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:20,510  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (99d3e3a8c9113919df5dfe93d230807f)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:20,511  INFO [TestNG-test=Regression-1] Log:43 - Starting loginPageTitleTest test execution
+2019-03-17 17:56:20,511  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: return document.title
+2019-03-17 17:56:20,519  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: return document.title
+2019-03-17 17:56:20,519  INFO [TestNG-test=Regression-1] Log:48 - Ending loginPageTitleTest test execution
+2019-03-17 17:56:20,664 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:56:20,664  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:56:20,666 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:56:20,666  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:56:21,872  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:26,364  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:26,364  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:26,365  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:26,378  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:26,388  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:26,388  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:26,397  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:26,397  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (be7f988b5f5fe75d8fb9c92c77e09794)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:28,593  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (be7f988b5f5fe75d8fb9c92c77e09794)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:28,594  INFO [TestNG-test=Regression-1] Log:77 - Starting loginWithEmptyEmailFieldTest test execution
+2019-03-17 17:56:28,594  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:28,610  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:28,611  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (be7f988b5f5fe75d8fb9c92c77e09794)] -> xpath: //input[@id='email']] before any changes made
+2019-03-17 17:56:28,636  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (be7f988b5f5fe75d8fb9c92c77e09794)] -> xpath: //input[@id='email']]
+2019-03-17 17:56:28,636  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:28,637  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:28,646  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:28,652  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:28,652  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:28,664  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:28,664  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (be7f988b5f5fe75d8fb9c92c77e09794)] -> xpath: //input[@id='passwd']] before any changes made
+2019-03-17 17:56:28,740  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (be7f988b5f5fe75d8fb9c92c77e09794)] -> xpath: //input[@id='passwd']]
+2019-03-17 17:56:28,740  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:28,740  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:28,748  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:28,768  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:28,768  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].click()
+2019-03-17 17:56:28,768  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.id: SubmitLogin
+2019-03-17 17:56:28,780  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.id: SubmitLogin
+2019-03-17 17:56:30,772  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].click()
+2019-03-17 17:56:30,773  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //div[@class='alert alert-danger']//li
+2019-03-17 17:56:30,785  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //div[@class='alert alert-danger']//li
+2019-03-17 17:56:30,785  INFO [TestNG-test=Regression-1] Log:152 - Trying to get a text: [[ChromeDriver: chrome on MAC (be7f988b5f5fe75d8fb9c92c77e09794)] -> xpath: //div[@class='alert alert-danger']//li]
+2019-03-17 17:56:30,798  INFO [TestNG-test=Regression-1] Log:157 - Text for: [[ChromeDriver: chrome on MAC (be7f988b5f5fe75d8fb9c92c77e09794)] -> xpath: //div[@class='alert alert-danger']//li] : An email address required.
+2019-03-17 17:56:30,799  INFO [TestNG-test=Regression-1] Log:85 - Ending loginWithEmptyEmailFieldTest test execution
+2019-03-17 17:56:30,937 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:56:30,937  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:56:30,939 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:56:30,939  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:56:32,027  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:36,855  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:36,855  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:36,855  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:36,868  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:36,874  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:36,874  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:36,883  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:36,884  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (c9fb6ef6df965e2c597e8bd9df9d1ba8)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:36,893 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:56:36,893 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:56:36,895 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:56:36,895 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:56:36,896 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:56:36,896 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:56:36,896 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:56:36,896 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:56:38,768  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (c9fb6ef6df965e2c597e8bd9df9d1ba8)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:38,769  INFO [TestNG-test=Regression-1] Log:90 - Starting loginWithEmptyPasswordFieldTest test execution
+2019-03-17 17:56:38,769  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:38,783  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:38,783  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (c9fb6ef6df965e2c597e8bd9df9d1ba8)] -> xpath: //input[@id='email']] before any changes made
+2019-03-17 17:56:38,880  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (c9fb6ef6df965e2c597e8bd9df9d1ba8)] -> xpath: //input[@id='email']]
+2019-03-17 17:56:38,881  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:38,881  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:38,890  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:38,895  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:38,896  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:38,907  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:38,908  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (c9fb6ef6df965e2c597e8bd9df9d1ba8)] -> xpath: //input[@id='passwd']] before any changes made
+2019-03-17 17:56:38,952  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (c9fb6ef6df965e2c597e8bd9df9d1ba8)] -> xpath: //input[@id='passwd']]
+2019-03-17 17:56:38,952  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:38,953  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:38,968  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:38,975  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:38,975  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].click()
+2019-03-17 17:56:38,975  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.id: SubmitLogin
+2019-03-17 17:56:38,986  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.id: SubmitLogin
+2019-03-17 17:56:39,989  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].click()
+2019-03-17 17:56:39,990  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //div[@class='alert alert-danger']//li
+2019-03-17 17:56:40,002  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //div[@class='alert alert-danger']//li
+2019-03-17 17:56:40,002  INFO [TestNG-test=Regression-1] Log:152 - Trying to get a text: [[ChromeDriver: chrome on MAC (c9fb6ef6df965e2c597e8bd9df9d1ba8)] -> xpath: //div[@class='alert alert-danger']//li]
+2019-03-17 17:56:40,014  INFO [TestNG-test=Regression-1] Log:157 - Text for: [[ChromeDriver: chrome on MAC (c9fb6ef6df965e2c597e8bd9df9d1ba8)] -> xpath: //div[@class='alert alert-danger']//li] : Password is required.
+2019-03-17 17:56:40,015  INFO [TestNG-test=Regression-1] Log:98 - Ending loginWithEmptyPasswordFieldTest test execution
+2019-03-17 17:56:40,149 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:56:40,150  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:56:40,151 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:56:40,152  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:56:41,294  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:46,156  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:46,156  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:46,156  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:46,170  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:46,176  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:46,176  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:46,184  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:46,185  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (7797f448ab30f5520c7b2fa551ce4de1)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:48,036  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (7797f448ab30f5520c7b2fa551ce4de1)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:48,037  INFO [TestNG-test=Regression-1] Log:64 - Starting loginWithInalidEmailTest test execution
+2019-03-17 17:56:48,037  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:48,051  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:48,051  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (7797f448ab30f5520c7b2fa551ce4de1)] -> xpath: //input[@id='email']] before any changes made
+2019-03-17 17:56:48,158  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (7797f448ab30f5520c7b2fa551ce4de1)] -> xpath: //input[@id='email']]
+2019-03-17 17:56:48,158  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:48,158  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:48,167  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:48,173  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:48,173  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:48,203  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:48,204  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (7797f448ab30f5520c7b2fa551ce4de1)] -> xpath: //input[@id='passwd']] before any changes made
+2019-03-17 17:56:48,254  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (7797f448ab30f5520c7b2fa551ce4de1)] -> xpath: //input[@id='passwd']]
+2019-03-17 17:56:48,254  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:48,254  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:48,262  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:48,267  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:48,268  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].click()
+2019-03-17 17:56:48,268  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.id: SubmitLogin
+2019-03-17 17:56:48,281  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.id: SubmitLogin
+2019-03-17 17:56:50,022  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].click()
+2019-03-17 17:56:50,022  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //div[@class='alert alert-danger']//li
+2019-03-17 17:56:50,037  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //div[@class='alert alert-danger']//li
+2019-03-17 17:56:50,037  INFO [TestNG-test=Regression-1] Log:152 - Trying to get a text: [[ChromeDriver: chrome on MAC (7797f448ab30f5520c7b2fa551ce4de1)] -> xpath: //div[@class='alert alert-danger']//li]
+2019-03-17 17:56:50,050  INFO [TestNG-test=Regression-1] Log:157 - Text for: [[ChromeDriver: chrome on MAC (7797f448ab30f5520c7b2fa551ce4de1)] -> xpath: //div[@class='alert alert-danger']//li] : Authentication failed.
+2019-03-17 17:56:50,050  INFO [TestNG-test=Regression-1] Log:72 - Ending loginWithInalidEmailTest test execution
+2019-03-17 17:56:50,193 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:56:50,193  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:56:50,194 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:56:50,195  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:56:51,309  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:56,540  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:56:56,541  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:56,542  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:56,554  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:56,563  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:56,563  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:56,572  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:56:56,572  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (8abe752ee25857c935f9f5151788b7ab)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:58,484  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (8abe752ee25857c935f9f5151788b7ab)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:56:58,485  INFO [TestNG-test=Regression-1] Log:54 - Starting loginWithValidCredentialsTest test execution
+2019-03-17 17:56:58,485  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:58,500  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:58,500  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (8abe752ee25857c935f9f5151788b7ab)] -> xpath: //input[@id='email']] before any changes made
+2019-03-17 17:56:58,594  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (8abe752ee25857c935f9f5151788b7ab)] -> xpath: //input[@id='email']]
+2019-03-17 17:56:58,595  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:58,595  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:58,603  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:56:58,609  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:58,609  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:58,620  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:58,621  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (8abe752ee25857c935f9f5151788b7ab)] -> xpath: //input[@id='passwd']] before any changes made
+2019-03-17 17:56:58,681  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (8abe752ee25857c935f9f5151788b7ab)] -> xpath: //input[@id='passwd']]
+2019-03-17 17:56:58,681  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:58,681  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:58,689  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:56:58,695  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:56:58,695  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].click()
+2019-03-17 17:56:58,695  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.id: SubmitLogin
+2019-03-17 17:56:58,706  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.id: SubmitLogin
+2019-03-17 17:57:00,214  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].click()
+2019-03-17 17:57:00,215  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: return document.title
+2019-03-17 17:57:00,222  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: return document.title
+2019-03-17 17:57:00,222  INFO [TestNG-test=Regression-1] Log:59 - Ending loginWithValidCredentialsTest test execution
+2019-03-17 17:57:00,363 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:57:00,363  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:57:00,365 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:57:00,365  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:57:01,456  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:05,870  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:05,870  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:05,871  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:57:05,884  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:57:05,890  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:05,890  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:57:05,900  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:57:05,900  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (abf319b4f0b419e44fbd2ad5c0dae12d)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:57:07,782  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (abf319b4f0b419e44fbd2ad5c0dae12d)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:57:07,783  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:57:07,799  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:57:07,800  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (abf319b4f0b419e44fbd2ad5c0dae12d)] -> xpath: //input[@id='email']] before any changes made
+2019-03-17 17:57:07,895  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (abf319b4f0b419e44fbd2ad5c0dae12d)] -> xpath: //input[@id='email']]
+2019-03-17 17:57:07,895  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:07,895  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:57:07,903  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:57:07,909  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:07,909  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:57:07,920  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:57:07,920  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (abf319b4f0b419e44fbd2ad5c0dae12d)] -> xpath: //input[@id='passwd']] before any changes made
+2019-03-17 17:57:07,972  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (abf319b4f0b419e44fbd2ad5c0dae12d)] -> xpath: //input[@id='passwd']]
+2019-03-17 17:57:07,972  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:07,972  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:57:07,980  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:57:07,986  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:07,986  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].click()
+2019-03-17 17:57:07,986  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.id: SubmitLogin
+2019-03-17 17:57:07,997  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.id: SubmitLogin
+2019-03-17 17:57:09,726  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].click()
+2019-03-17 17:57:09,727  INFO [TestNG-test=Regression-1] Log:42 - Starting accountPageTitleTest test execution
+2019-03-17 17:57:09,727  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: return document.title
+2019-03-17 17:57:09,733  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: return document.title
+2019-03-17 17:57:09,733  INFO [TestNG-test=Regression-1] Log:47 - Ending accountPageTitleTest test execution
+2019-03-17 17:57:09,875 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:57:09,875  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:57:09,876 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:57:09,877  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:57:11,016  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:16,044  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:16,045  INFO [TestNG-test=Regression-1] Log:88 - Starting homePageInvalidSubscriptionTest test execution
+2019-03-17 17:57:16,045  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.id: newsletter-input
+2019-03-17 17:57:16,056  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.id: newsletter-input
+2019-03-17 17:57:16,057  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (9f09830c1c26094f4638429b4830fade)] -> id: newsletter-input] before any changes made
+2019-03-17 17:57:16,162  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (9f09830c1c26094f4638429b4830fade)] -> id: newsletter-input]
+2019-03-17 17:57:16,162  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.name: submitNewsletter
+2019-03-17 17:57:16,175  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.name: submitNewsletter
+2019-03-17 17:57:16,175  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (9f09830c1c26094f4638429b4830fade)] -> name: submitNewsletter]
+2019-03-17 17:57:17,992  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (9f09830c1c26094f4638429b4830fade)] -> name: submitNewsletter]
+2019-03-17 17:57:17,993  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //p[@class='alert alert-danger']
+2019-03-17 17:57:18,005  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //p[@class='alert alert-danger']
+2019-03-17 17:57:18,005  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:18,012  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:18,012  INFO [TestNG-test=Regression-1] Log:152 - Trying to get a text: [[ChromeDriver: chrome on MAC (9f09830c1c26094f4638429b4830fade)] -> xpath: //p[@class='alert alert-danger']]
+2019-03-17 17:57:18,024  INFO [TestNG-test=Regression-1] Log:157 - Text for: [[ChromeDriver: chrome on MAC (9f09830c1c26094f4638429b4830fade)] -> xpath: //p[@class='alert alert-danger']] : Newsletter : This email address is already registered.
+2019-03-17 17:57:18,025  INFO [TestNG-test=Regression-1] Log:93 - Ending homePageInvalidSubscriptionTest test execution
+2019-03-17 17:57:18,122  INFO [TestNG-test=Regression-1] Log:70 - Generating random email for subscription: autotest102@test.com
+2019-03-17 17:57:18,165 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:57:18,165  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:57:18,167 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:57:18,167  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:57:19,317  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:23,691  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:23,691  INFO [TestNG-test=Regression-1] Log:77 - Starting homePageValidSubscriptionTest test execution
+2019-03-17 17:57:23,692  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.id: newsletter-input
+2019-03-17 17:57:23,704  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.id: newsletter-input
+2019-03-17 17:57:23,704  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (815e1784bd24bb04b159f0d224073ed6)] -> id: newsletter-input] before any changes made
+2019-03-17 17:57:23,803  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (815e1784bd24bb04b159f0d224073ed6)] -> id: newsletter-input]
+2019-03-17 17:57:23,804  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.name: submitNewsletter
+2019-03-17 17:57:23,818  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.name: submitNewsletter
+2019-03-17 17:57:23,819  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (815e1784bd24bb04b159f0d224073ed6)] -> name: submitNewsletter]
+2019-03-17 17:57:25,712  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (815e1784bd24bb04b159f0d224073ed6)] -> name: submitNewsletter]
+2019-03-17 17:57:25,712  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //p[@class='alert alert-success']
+2019-03-17 17:57:25,724  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //p[@class='alert alert-success']
+2019-03-17 17:57:25,724  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:25,731  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:25,731  INFO [TestNG-test=Regression-1] Log:152 - Trying to get a text: [[ChromeDriver: chrome on MAC (815e1784bd24bb04b159f0d224073ed6)] -> xpath: //p[@class='alert alert-success']]
+2019-03-17 17:57:25,743  INFO [TestNG-test=Regression-1] Log:157 - Text for: [[ChromeDriver: chrome on MAC (815e1784bd24bb04b159f0d224073ed6)] -> xpath: //p[@class='alert alert-success']] : Newsletter : You have successfully subscribed to this newsletter.
+2019-03-17 17:57:25,744  INFO [TestNG-test=Regression-1] Log:82 - Ending homePageValidSubscriptionTest test execution
+2019-03-17 17:57:25,877 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:57:25,877  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:57:25,879 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:57:25,880  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:57:26,964  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:31,493  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:31,494  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:31,494  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:57:31,507  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:57:31,516  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:31,517  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:57:31,524  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Log in to your customer account']
+2019-03-17 17:57:31,525  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (2e045320bd3dd167fd3f859ff7923b76)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:57:33,402  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (2e045320bd3dd167fd3f859ff7923b76)] -> xpath: //a[@title='Log in to your customer account']]
+2019-03-17 17:57:33,403  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:57:33,418  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:57:33,418  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (2e045320bd3dd167fd3f859ff7923b76)] -> xpath: //input[@id='email']] before any changes made
+2019-03-17 17:57:33,514  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (2e045320bd3dd167fd3f859ff7923b76)] -> xpath: //input[@id='email']]
+2019-03-17 17:57:33,514  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:33,514  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='email']
+2019-03-17 17:57:33,522  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='email']
+2019-03-17 17:57:33,528  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:33,528  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:57:33,540  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:57:33,541  INFO [TestNG-test=Regression-1] Log:102 - Value of the:[[ChromeDriver: chrome on MAC (2e045320bd3dd167fd3f859ff7923b76)] -> xpath: //input[@id='passwd']] before any changes made
+2019-03-17 17:57:33,596  INFO [TestNG-test=Regression-1] Log:107 - Element value changed to: [[ChromeDriver: chrome on MAC (2e045320bd3dd167fd3f859ff7923b76)] -> xpath: //input[@id='passwd']]
+2019-03-17 17:57:33,597  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:33,597  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:57:33,604  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //input[@id='passwd']
+2019-03-17 17:57:33,610  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:33,610  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].click()
+2019-03-17 17:57:33,610  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.id: SubmitLogin
+2019-03-17 17:57:33,621  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.id: SubmitLogin
+2019-03-17 17:57:35,988  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].click()
+2019-03-17 17:57:35,989  INFO [TestNG-test=Regression-1] Log:52 - Starting tshirtsLinkTest test execution
+2019-03-17 17:57:36,004 ERROR [TestNG-test=Regression-1] Log:132 - Exception occurred: org.openqa.selenium.UnsupportedCommandException: actions
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'users-MacBook-Pro.local', ip: 'fe80:0:0:0:3d:8593:b643:76c2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_201'
 Driver info: driver.version: EventFiringWebDriver
-2019-03-15 21:14:07,272  INFO [main] Log:142 - Trying to get screenshot: OutputType.FILE
-2019-03-15 21:14:07,827 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
-2019-03-15 21:14:07,827 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
-2019-03-15 21:14:07,844  INFO [main] Log:147 - Screenshot is done: OutputType.FILE /var/folders/ss/ymsq538n3vv367qhl9yrj4240000gn/T/screenshot2105465221995474208.png
-2019-03-15 21:14:07,849  INFO [main] Log:82 - Trying to find Element By : By.xpath: //a[@title='Women']
-2019-03-15 21:14:07,862  INFO [main] Log:87 - Found Element By : By.xpath: //a[@title='Women']
-2019-03-15 21:14:07,880  INFO [main] Log:82 - Trying to find Element By : By.xpath: //a[@title='T-shirts']
-2019-03-15 21:14:07,891  INFO [main] Log:87 - Found Element By : By.xpath: //a[@title='T-shirts']
-2019-03-15 21:14:07,892  INFO [main] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (63fb618b420c55ad7d887db9f449d00e)] -> xpath: //a[@title='T-shirts']]
-2019-03-15 21:14:12,534  INFO [main] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (63fb618b420c55ad7d887db9f449d00e)] -> xpath: //a[@title='T-shirts']]
-2019-03-15 21:14:12,539  INFO [main] Log:58 - Ending tshirtsLinkTest test execution
+2019-03-17 17:57:36,004  INFO [TestNG-test=Regression-1] Log:142 - Trying to get screenshot: OutputType.FILE
+2019-03-17 17:57:36,666 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:57:36,666 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:57:36,667 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:57:36,667 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:57:36,668 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:57:36,668 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:57:36,668 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:57:36,668 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:57:36,670 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:57:36,670 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:57:36,671 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:57:36,671 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:57:36,685  INFO [TestNG-test=Regression-1] Log:147 - Screenshot is done: OutputType.FILE /var/folders/ss/ymsq538n3vv367qhl9yrj4240000gn/T/screenshot6675772646579619339.png
+2019-03-17 17:57:36,690  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='Women']
+2019-03-17 17:57:36,703  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='Women']
+2019-03-17 17:57:36,719  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //a[@title='T-shirts']
+2019-03-17 17:57:36,730  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //a[@title='T-shirts']
+2019-03-17 17:57:36,730  INFO [TestNG-test=Regression-1] Log:92 - Trying to click on: [[ChromeDriver: chrome on MAC (2e045320bd3dd167fd3f859ff7923b76)] -> xpath: //a[@title='T-shirts']]
+2019-03-17 17:57:38,773  INFO [TestNG-test=Regression-1] Log:97 - Clicked on: [[ChromeDriver: chrome on MAC (2e045320bd3dd167fd3f859ff7923b76)] -> xpath: //a[@title='T-shirts']]
+2019-03-17 17:57:38,777  INFO [TestNG-test=Regression-1] Log:58 - Ending tshirtsLinkTest test execution
+2019-03-17 17:57:38,920 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:57:38,920  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:57:38,921 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:57:38,922  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:57:40,121  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:44,778  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:44,779  INFO [TestNG-test=Regression-1] Log:110 - Starting homePageFollowUsLabelTest test execution
+2019-03-17 17:57:44,779  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:44,779  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //h4[contains(text(), 'Follow us')]
+2019-03-17 17:57:44,793  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //h4[contains(text(), 'Follow us')]
+2019-03-17 17:57:44,800  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:44,800  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //h4[contains(text(), 'Follow us')]
+2019-03-17 17:57:44,808  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //h4[contains(text(), 'Follow us')]
+2019-03-17 17:57:44,818  INFO [TestNG-test=Regression-1] Log:115 - Ending homePageFollowUsLabelTest test execution
+2019-03-17 17:57:44,950 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:57:44,950  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:57:44,952 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:57:44,952  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:57:46,192  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:50,667  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:50,667  INFO [TestNG-test=Regression-1] Log:66 - Starting homePageLogoTest test execution
+2019-03-17 17:57:50,668  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:50,668  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //img[@class='logo img-responsive']
+2019-03-17 17:57:50,680  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //img[@class='logo img-responsive']
+2019-03-17 17:57:50,688  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:50,689  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //img[@class='logo img-responsive']
+2019-03-17 17:57:50,697  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //img[@class='logo img-responsive']
+2019-03-17 17:57:50,707  INFO [TestNG-test=Regression-1] Log:71 - Ending homePageLogoTest test execution
+2019-03-17 17:57:50,840 DEBUG [TestNG-test=Regression-1] Preferences:118 - Preference found chrome72=2.46 (valid until 2019-03-17 18:50:48)
+2019-03-17 17:57:50,840  INFO [TestNG-test=Regression-1] WebDriverManager:546 - Using chromedriver 2.46 (since Google Chrome 72 is installed in your machine)
+2019-03-17 17:57:50,842 DEBUG [TestNG-test=Regression-1] WebDriverManager:502 - Driver chromedriver 2.46 found in cache
+2019-03-17 17:57:50,842  INFO [TestNG-test=Regression-1] WebDriverManager:1035 - Exporting webdriver.chrome.driver as /Users/user/.m2/repository/webdriver/chromedriver/mac64/2.46/chromedriver
+2019-03-17 17:57:52,033  INFO [TestNG-test=Regression-1] Log:41 - Before navigating to: 'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:56,785  INFO [TestNG-test=Regression-1] Log:47 - Navigated to:'http://www.automationpractice.com/index.php'
+2019-03-17 17:57:56,786  INFO [TestNG-test=Regression-1] Log:99 - Starting homePageNewsletterLabelTest test execution
+2019-03-17 17:57:56,786  INFO [TestNG-test=Regression-1] Log:112 - Trying to execute script: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:56,786  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //h4[contains(text(),'Newsletter')]
+2019-03-17 17:57:56,799  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //h4[contains(text(),'Newsletter')]
+2019-03-17 17:57:56,807  INFO [TestNG-test=Regression-1] Log:117 - Script is executed: arguments[0].style.border='3px solid red'
+2019-03-17 17:57:56,807  INFO [TestNG-test=Regression-1] Log:82 - Trying to find Element By : By.xpath: //h4[contains(text(),'Newsletter')]
+2019-03-17 17:57:56,815  INFO [TestNG-test=Regression-1] Log:87 - Found Element By : By.xpath: //h4[contains(text(),'Newsletter')]
+2019-03-17 17:57:56,825  INFO [TestNG-test=Regression-1] Log:104 - Ending homePageNewsletterLabelTest test execution
+2019-03-17 17:57:56,980 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:57:56,981 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:57:56,981 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:57:56,981 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:57:56,981 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2019-03-17 17:57:56,981 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2019-03-17 17:58:02,056 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_UA", UTF-8, parsed); will try to load it.
+2019-03-17 17:58:02,056 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_UA.ftl"): Not found
+2019-03-17 17:58:02,057 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-03-17 17:58:02,058 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-03-17 17:58:02,058 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_UA", UTF-8, parsed) from "jar:file:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-03-17 17:58:02,198 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_UA", UTF-8, parsed); will try to load it.
+2019-03-17 17:58:02,199 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_UA.ftl"): Not found
+2019-03-17 17:58:02,199 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-03-17 17:58:02,199 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-03-17 17:58:02,199 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_UA", UTF-8, parsed) from "jar:file:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

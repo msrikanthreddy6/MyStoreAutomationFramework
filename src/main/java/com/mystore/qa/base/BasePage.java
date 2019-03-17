@@ -28,6 +28,7 @@ public class BasePage implements TestPriority, Browsers {
     private static WebEventListener eventListener;
 
     public static final Logger logger = Log.getLogData(Log.class.getName());
+    public static final CustomAssertion assertions = new CustomAssertion();
 
     public BasePage(){
         try{

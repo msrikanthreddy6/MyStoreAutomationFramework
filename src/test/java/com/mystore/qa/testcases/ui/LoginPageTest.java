@@ -43,7 +43,7 @@ public class LoginPageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
         String title = loginPage.validateLoginPageTitle();
 
-        Assert.assertEquals(title, TITLE);
+        assertions.assertEquals(title, TITLE);
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }
@@ -54,7 +54,7 @@ public class LoginPageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
         AccountPage accountPage = loginPage.validateLogin(prop.getProperty("useremail"), prop.getProperty("userpassword"));
 
-        Assert.assertEquals(accountPage.validateAccountPageTitle(), HOME_PAGE_TITLE);
+        assertions.assertEquals(accountPage.validateAccountPageTitle(), HOME_PAGE_TITLE);
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }

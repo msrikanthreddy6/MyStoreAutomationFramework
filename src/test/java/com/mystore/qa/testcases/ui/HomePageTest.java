@@ -5,7 +5,6 @@ import com.mystore.qa.pages.HomePage;
 import com.mystore.qa.pages.LoginPage;
 import com.mystore.qa.util.TestUtil;
 
-import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -45,7 +44,7 @@ public class HomePageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
         String title = homePage.validateHomePageTitle();
 
-        Assert.assertEquals(title, TITLE);
+        assertions.assertEquals(title, TITLE);
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }
@@ -56,7 +55,7 @@ public class HomePageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
         LoginPage loginPage = homePage.clickOnSignInLink();
 
-        Assert.assertEquals(loginPage.validateLoginPageTitle(), LOGIN_TITLE);
+        assertions.assertEquals(loginPage.validateLoginPageTitle(), LOGIN_TITLE);
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }
@@ -67,7 +66,7 @@ public class HomePageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
         boolean isLogo = homePage.validateHomePageLogo();
 
-        Assert.assertTrue(isLogo);
+        assertions.assertTrue(isLogo);
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }
@@ -78,7 +77,7 @@ public class HomePageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
         String msg = homePage.validateNewslatterValidSubs(email);
 
-        Assert.assertTrue(msg.contains(VALID_SUB_MSG));
+        assertions.assertTrue(msg.contains(VALID_SUB_MSG));
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }
@@ -89,7 +88,7 @@ public class HomePageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
         String msg = homePage.validateNewslatterInvalidSubs(prop.getProperty("useremail"));
 
-        Assert.assertTrue(msg.contains(INVALID_SUB_MSG));
+        assertions.assertTrue(msg.contains(INVALID_SUB_MSG));
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }
@@ -100,7 +99,7 @@ public class HomePageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
         boolean isLabel = homePage.validateHomePageNewslatterLabel();
 
-        Assert.assertTrue(isLabel);
+        assertions.assertTrue(isLabel);
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }
@@ -111,7 +110,7 @@ public class HomePageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
         boolean isLabel = homePage.validateHomePageFollowUsLabel();
 
-        Assert.assertTrue(isLabel);
+        assertions.assertTrue(isLabel);
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }

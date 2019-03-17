@@ -42,7 +42,7 @@ public class AccountPageTest extends BasePage {
         logger.info(String.format("Starting %s test execution", test.getName()));
 
         String title = accountPage.validateAccountPageTitle();
-        Assert.assertEquals(title, TITLE);
+        assertions.assertEquals(title, TITLE);
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }
@@ -53,7 +53,7 @@ public class AccountPageTest extends BasePage {
 
         tShirtsPage = accountPage.validateClickOnTshirtsLink();
         String title = tShirtsPage.validateAccountPageTitle();
-        Assert.assertEquals(title, TSHIRT_PAGE_TITLE);
+        assertions.assertEquals(title, TSHIRT_PAGE_TITLE);
 
         logger.info(String.format("Ending %s test execution", test.getName()));
     }

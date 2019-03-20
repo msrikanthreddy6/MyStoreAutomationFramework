@@ -13,3 +13,5 @@ Tools:
 • TestNG
 
 • Maven
+
+• Log4j

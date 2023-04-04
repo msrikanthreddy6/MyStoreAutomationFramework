@@ -22,8 +22,8 @@ public class LoginPageTest extends BasePage {
     private static final String EMPTY_PASS_AUTH_ERROR_MSG = "Password is required.";
 
 
-    private HomePage homePage;
-    private LoginPage loginPage;
+    public HomePage homePage;
+    public LoginPage loginPage;
 
     public LoginPageTest(){
         super();

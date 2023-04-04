@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [MyStore Full Regression test suit]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.mystore.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="2" parallel="methods" name="Sanity(failed)">
+    <classes>
+      <class name="com.mystore.qa.testcases.ui.LoginPageTest">
+        <methods>
+          <include name="loginWithInalidEmailTest"/>
+          <include name="loginWithEmptyEmailFieldTest"/>
+          <include name="setUp"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginWithEmptyPasswordFieldTest"/>
+          <include name="tearDown"/>
+          <include name="loginWithValidCredentialsTest"/>
+        </methods>
+      </class> <!-- com.mystore.qa.testcases.ui.LoginPageTest -->
+    </classes>
+  </test> <!-- Sanity(failed) -->
+</suite> <!-- Failed suite [MyStore Full Regression test suit] -->

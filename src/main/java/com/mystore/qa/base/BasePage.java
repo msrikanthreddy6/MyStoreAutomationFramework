@@ -45,18 +45,18 @@ public class BasePage implements TestPriority, Browsers {
     public static void initialization() {
         String browserName = prop.getProperty(TestUtil.BROWSER);
 
-        if(browserName.equals(CHROME)){
+        if(browserName.equalsIgnoreCase(CHROME)){
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-        } else if(browserName.equals(FIREFOX)){
+        } else if(browserName.equalsIgnoreCase(FIREFOX)){
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
-        } else if(browserName.equals(SAFARI)){
+        } else if(browserName.equalsIgnoreCase(SAFARI)){
             driver = new SafariDriver();
-        } else if(browserName.equals(IE)){
+        } else if(browserName.equalsIgnoreCase(IE)){
             WebDriverManager.iedriver().setup();
             driver = new InternetExplorerDriver();
-        } else if(browserName.equals(EDGE)){
+        } else if(browserName.equalsIgnoreCase(EDGE)){
             WebDriverManager.edgedriver();
             driver = new EdgeDriver();
         } else {

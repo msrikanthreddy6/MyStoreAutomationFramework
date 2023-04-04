@@ -7,7 +7,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import com.mystore.qa.util.TestUtil;
 import org.testng.IReporter;
 import org.testng.IResultMap;
 import org.testng.ISuite;
